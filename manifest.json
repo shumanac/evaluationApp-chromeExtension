@@ -1,0 +1,26 @@
+{
+  "name": "Meteor Extension Biolerplate",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Evaluation app to evaluate how your sharings help to grow your knowledge",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "evaluationApp",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
